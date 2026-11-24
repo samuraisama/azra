@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#d98b4a">
+<meta name="description" content="Azra. I love you. A little page about us.">
+<title>Azra. I love you.</title>
+<link rel="preload" href="assets/dilerim-ki.mp3" as="audio" type="audio/mpeg" fetchpriority="high">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#2e2119;--ink-soft:#584438;--muted:#806b5a;--paper:#f4e5d3;--paper2:#f8eee2;--amber:#d98b4a;--copper:#b96835;--honey:#efbd75;--line:#65452d26;--white:#fff8ee}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:'DM Sans',sans-serif;line-height:1.7;background:linear-gradient(125deg,#f8ead4 0%,#f0cf9f 38%,#e9ad70 70%,#c87947 100%);background-attachment:fixed;overflow-x:hidden}
+body:before{content:"";position:fixed;z-index:-1;inset:0;pointer-events:none;background:
+radial-gradient(ellipse at 8% 9%,#fff7e5ed 0,#ffe3b5a6 15%,transparent 43%),
+linear-gradient(118deg,transparent 0 8%,#fff0d24d 8.2% 25%,transparent 25.3% 100%),
+linear-gradient(91deg,transparent 0 17%,#70432925 17.15% 18.05%,transparent 18.2% 46%,#70432920 46.15% 47.1%,transparent 47.25% 76%,#7043291b 76.15% 77%,transparent 77.2%),
+linear-gradient(0deg,transparent 0 31%,#70432920 31.15% 32.05%,transparent 32.2% 69%,#7043291c 69.15% 70.05%,transparent 70.2%),
+linear-gradient(117deg,transparent 0 40%,#7b4a2920 40.2% 53%,transparent 53.3% 100%);
+filter:saturate(1.08)}
+body:after{content:"";position:fixed;z-index:-1;inset:-18% -8% auto auto;width:92vw;height:112vh;pointer-events:none;opacity:.72;background:
+linear-gradient(115deg,transparent 0 18%,#ffcb8052 18.2% 35%,transparent 35.3% 100%),
+linear-gradient(115deg,transparent 0 47%,#7a45231d 47.2% 49%,transparent 49.3% 100%),
+radial-gradient(ellipse at 14% 28%,#fff0d6a8,transparent 58%);
+filter:blur(13px);transform:skewY(-13deg)}
+a{color:inherit}.wrap{width:min(1080px,calc(100% - 44px));margin:auto}.top{display:flex;justify-content:space-between;align-items:center;padding:23px 0;color:#70533e;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase}.mark{font:600 1.12rem 'Playfair Display',serif;letter-spacing:.12em;color:#9a512c}.top span:last-child{letter-spacing:.13em}
+.hero{min-height:88vh;display:flex;align-items:center;position:relative;padding:58px 0 100px}.hero-copy{max-width:730px;position:relative;z-index:1}.eyebrow{color:#a45b32;font-size:.7rem;letter-spacing:.27em;text-transform:uppercase;font-weight:700}.hero h1{font:500 clamp(4.1rem,11vw,9rem)/.9 'Playfair Display',serif;letter-spacing:-.065em;margin:25px 0 28px;color:#352319}.hero h1 span{display:block;color:#b86836;font-style:italic;font-size:.72em;margin-top:20px;letter-spacing:-.045em}.hero p{max-width:535px;color:#654d3d;font-size:1.04rem}.hero-actions{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin-top:33px}.btn{border:0;background:#854a2b;color:#fff5e9;border-radius:999px;padding:13px 22px;font:600 .85rem 'DM Sans';cursor:pointer;box-shadow:0 10px 24px #7543222a;transition:.2s}.btn:hover{transform:translateY(-2px);background:#6d3c25}.quiet{color:#806954;font-size:.8rem}.window-light{position:absolute;right:1%;top:7%;width:min(48vw,560px);height:min(76vh,720px);pointer-events:none;opacity:.58;transform:perspective(850px) rotateY(-8deg) rotateZ(3deg);filter:blur(1.1px)}
+.window-light:before{content:'';position:absolute;inset:0;clip-path:polygon(3% 0,100% 4%,89% 100%,0 88%);background:linear-gradient(120deg,#fff4dca8 0%,#ffd18c78 46%,#e9a15e32 100%);box-shadow:0 0 100px #f7c27b66}
+.window-light:after{content:'';position:absolute;inset:-5% -12%;background:
+linear-gradient(90deg,transparent 0 12%,#74442645 12.4% 14%,transparent 14.4% 48%,#7444263c 48.4% 50%,transparent 50.4% 85%,#74442632 85.4% 87%,transparent 87.4%),
+linear-gradient(0deg,transparent 0 39%,#74442642 39.4% 41.3%,transparent 41.7%),
+linear-gradient(115deg,transparent 0 24%,#7d4a2a22 24.2% 41%,transparent 41.3% 100%);
+filter:blur(9px);transform:translate(22px,30px)}
+.section{padding:84px 0;border-top:1px solid var(--line)}.section-head{display:flex;justify-content:space-between;gap:26px;align-items:end;margin-bottom:30px}.section h2{font:500 clamp(2.35rem,5vw,4rem)/1.05 'Playfair Display',serif;letter-spacing:-.04em;margin:10px 0;color:#39271c}.section-intro{max-width:445px;margin:0;color:#705744;font-size:.94rem}.manifesto{padding:clamp(28px,6vw,58px);border-radius:23px;background:linear-gradient(135deg,#f8eee2d9,#edcfacbd);border:1px solid #fff8ee9c;box-shadow:0 18px 50px #6c3c2013}.manifesto blockquote{margin:0;max-width:810px;font:500 clamp(1.65rem,4vw,3rem)/1.34 'Playfair Display',serif;color:#3d2b20}.manifesto blockquote em{color:#b86836}.manifesto .small{color:#816650;margin:21px 0 0;font-size:.87rem}
+.gallery{display:grid;grid-template-columns:1.15fr .85fr;grid-template-rows:repeat(2,minmax(210px,290px));gap:16px}.photo{border:1px solid #fff8eea8;background:#e7c39e;border-radius:20px;overflow:hidden;position:relative;min-height:0;margin:0;box-shadow:0 16px 42px #71432220;isolation:isolate;cursor:zoom-in}.photo:nth-child(1){grid-column:1;grid-row:1 / span 2}.photo:nth-child(2){grid-column:2;grid-row:1}.photo:nth-child(3){grid-column:2;grid-row:2}.photo:nth-child(4){grid-column:1 / -1;grid-row:3;max-height:460px;min-height:260px}.photo img{width:100%;height:100%;min-height:inherit;object-fit:cover;display:block;transition:transform .8s,filter .5s}.photo:hover img{transform:scale(1.035);filter:saturate(1.05)}.photo:nth-child(1) img{object-position:center 27%}.photo:nth-child(2) img{object-position:center 35%}.photo:nth-child(3) img{object-position:center 25%}.photo:nth-child(4) img{object-position:center 32%}.photo figcaption{position:absolute;bottom:0;left:0;right:0;padding:46px 20px 16px;background:linear-gradient(transparent,#24160f9c);font-size:.8rem;color:#fff8ee;letter-spacing:.04em}.photo:after{content:'↗';position:absolute;right:15px;top:15px;width:32px;height:32px;border-radius:50%;display:grid;place-items:center;background:#2c1b13a6;color:#fff8ed;font-size:1rem;opacity:0;transition:opacity .25s}.photo:hover:after{opacity:1}
+.hero{min-height:88vh;display:grid;grid-template-columns:1fr .9fr;gap:clamp(28px,5vw,72px);align-items:center;position:relative;padding:55px 0 92px}
+.hero-copy{max-width:650px;position:relative;z-index:1}
+.hero-photo{width:100%;height:min(70vh,680px);min-height:490px;position:relative;margin:0;overflow:hidden;border-radius:230px 230px 18px 18px;border:1px solid #fff8e8ad;box-shadow:0 26px 70px #74411e35;background:#d9a36d;z-index:1;cursor:zoom-in}
+.hero-photo img{width:100%;height:100%;display:block;object-fit:cover;object-position:center 29%;filter:saturate(.94) sepia(.05)}
+.hero-photo:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#6b3c1c00 55%,#47291666 100%);pointer-events:none}
+.hero-photo figcaption,.memory-photo figcaption{position:absolute;left:0;right:0;bottom:0;padding:42px 22px 18px;color:#fff8ec;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;background:linear-gradient(transparent,#3d2415a8);z-index:2}
+.feature-row{display:grid;grid-template-columns:1fr .92fr;gap:22px;align-items:stretch}
+.feature-row-reverse{grid-template-columns:.92fr 1fr}
+.memory-photo{min-height:360px;height:100%;position:relative;margin:0;border-radius:22px;overflow:hidden;border:1px solid #fff8e9b0;box-shadow:0 18px 48px #76452226;background:#d8a16b;cursor:zoom-in}
+.memory-photo img{display:block;width:100%;height:100%;min-height:inherit;object-fit:cover;object-position:center center;transition:transform .7s}
+.memory-photo:hover img,.hero-photo:hover img{transform:scale(1.025)}
+.feature-row-reverse .memory-photo img{object-position:center 25%}
+.small-feature{grid-template-columns:1fr .72fr}
+.portrait-memory{min-height:420px;max-height:560px}
+.portrait-memory img{object-position:center 24%}
+.lightbox-photo{cursor:zoom-in}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:stretch}.tile{background:#f8eee2c9;border:1px solid #fff8ee9c;border-radius:20px;overflow:hidden;box-shadow:0 15px 42px #6c3c2014}.tile-pad{padding:29px}.tile h3{font:500 1.65rem 'Playfair Display',serif;margin:0 0 10px;color:#3d2a1e}.tile p{color:#705844;margin:0}.video-frame{width:100%;display:block;max-height:520px;object-fit:cover;background:#5d3825}
+.note{background:linear-gradient(135deg,#f8eee2e8,#eecda9dd);border:1px solid #fff8eea6;border-radius:23px;padding:clamp(28px,6vw,60px);max-width:850px;margin:auto;box-shadow:0 16px 44px #6c3c2014}.note p{color:#654c39;font-size:1rem}.note .sign{font:italic 1.65rem 'Playfair Display',serif;color:#a45b32;margin-top:24px}
+.music{display:flex;align-items:center;gap:18px;background:#f8eee2c9;border:1px solid #fff8eea6;border-radius:18px;padding:18px 20px;box-shadow:0 14px 34px #6c3c2012}.disc{width:57px;height:57px;border-radius:50%;background:radial-gradient(circle,#f4dfc4 0 11%,#7d4529 12% 16%,#d88b4a 17% 100%);box-shadow:0 0 0 6px #9e633022;flex:none;animation:spin 8s linear infinite;animation-play-state:paused}.disc.playing{animation-play-state:running}@keyframes spin{to{transform:rotate(360deg)}}.music-meta{flex:1;min-width:0}.music-meta strong{display:block;color:#432b1b}.music-meta span{color:#806954;font-size:.82rem}.music button{border:1px solid #98603c55;background:#a95e32;color:#fff7ed;border-radius:999px;padding:10px 16px;cursor:pointer;font:600 .8rem 'DM Sans'}.music button:hover{background:#844726}.music-help{margin:11px 4px 0;color:#806954;font-size:.79rem}
+.lightbox{position:fixed;z-index:20;inset:0;background:#1c120def;display:none;align-items:center;justify-content:center;padding:24px;backdrop-filter:blur(10px)}.lightbox.open{display:flex}.lightbox img{max-width:min(92vw,1050px);max-height:88vh;object-fit:contain;border-radius:12px;box-shadow:0 25px 90px #0008}.lightbox button{position:absolute;top:22px;right:24px;border:1px solid #ffffff55;background:#fff2;color:#fff;border-radius:50%;width:44px;height:44px;font-size:1.5rem;cursor:pointer}.footer{padding:42px 0 55px;text-align:center;color:#785c46;font-size:.77rem}.footer b{color:#9b542d;font-weight:600}.reveal{opacity:0;transform:translateY(16px);transition:opacity .7s,transform .7s}.reveal.visible{opacity:1;transform:none}
+@media(max-width:700px){.wrap{width:min(100% - 28px,560px)}.top{padding:17px 0}.top span:last-child{font-size:.61rem}.hero{min-height:0;grid-template-columns:1fr;gap:25px;padding:36px 0 62px}.hero h1{font-size:clamp(4rem,18vw,6.5rem)}.hero-photo{height:68vh;min-height:420px;max-height:620px;width:min(100%,470px);margin:0 auto;border-radius:180px 180px 16px 16px}.window-light{width:70vw;height:300px;right:-18%;top:12%;opacity:.30}.section{padding:62px 0}.feature-row,.feature-row-reverse,.small-feature{grid-template-columns:1fr;gap:16px}.feature-row-reverse .memory-photo{order:2}.feature-row-reverse .manifesto{order:1}.memory-photo{min-height:290px;height:340px}.portrait-memory{height:430px;min-height:430px;width:min(100%,420px);margin:0 auto}.section-head{display:block}.section-intro{margin-top:13px}.gallery{grid-template-columns:1fr 1fr;grid-template-rows:300px 180px 180px;gap:10px}.photo{min-height:0;border-radius:14px}.photo:nth-child(1){grid-column:1 / -1;grid-row:1}.photo:nth-child(2){grid-column:1;grid-row:2}.photo:nth-child(3){grid-column:2;grid-row:2}.photo:nth-child(4){grid-column:1 / -1;grid-row:3;min-height:0}.two-col{grid-template-columns:1fr}.music{gap:12px;padding:14px}.disc{width:47px;height:47px}.music button{padding:9px 12px}}
+.intro{position:fixed;inset:0;z-index:50;display:flex;align-items:center;justify-content:center;text-align:center;cursor:pointer;background:linear-gradient(125deg,#f8ead4f2 0%,#f0cf9ff2 45%,#e9ad70f2 100%);backdrop-filter:blur(8px);transition:opacity .7s ease}.intro[hidden]{display:none}.intro.gone{opacity:0;pointer-events:none}.intro-title{font:500 clamp(2.6rem,9vw,4.6rem)/1.05 'Playfair Display',serif;color:#352319;letter-spacing:-.04em;margin:14px 0 8px}.intro-title span{color:#b86836;font-style:italic}.intro p{margin:0;color:#705744;font-size:.9rem;letter-spacing:.08em}.intro-inner{padding:24px;animation:introPulse 2.6s ease-in-out infinite}@keyframes introPulse{50%{transform:scale(1.03)}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.disc{animation:none}}
+</style>
+</head>
+<body>
+<audio id="song" autoplay preload="auto" loop playsinline><source src="assets/dilerim-ki.mp3" type="audio/mpeg"></audio>
+<div class="intro" id="intro" role="button" tabindex="0" aria-label="Open the page and play our song" hidden>
+<div class="intro-inner"><div class="eyebrow">for Azra</div><div class="intro-title">Tap to open <span>♫</span></div><p>Turn your sound on.</p></div>
+</div>
+<script>
+(() => {
+  const audio = document.getElementById('song');
+  const intro = document.getElementById('intro');
+  let started = false;
+  const hideIntro = () => { intro.classList.add('gone'); setTimeout(() => { intro.hidden = true; }, 700); };
+  const onStarted = () => { started = true; hideIntro(); removeGestureListeners(); };
+  const tryPlay = () => {
+    if (started) return Promise.resolve(true);
+    const result = audio.play();
+    if (!result || typeof result.then !== 'function') return Promise.resolve(!audio.paused);
+    return result.then(() => { onStarted(); return true; }, () => false);
+  };
+  const gestureEvents = ['pointerdown', 'touchend', 'keydown', 'click'];
+  const onGesture = e => { if (e.target && e.target.closest && e.target.closest('#musicBtn')) return; tryPlay(); };
+  const removeGestureListeners = () => gestureEvents.forEach(ev => document.removeEventListener(ev, onGesture, true));
+  gestureEvents.forEach(ev => document.addEventListener(ev, onGesture, true));
+  intro.addEventListener('click', () => { tryPlay(); hideIntro(); });
+  intro.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); tryPlay(); hideIntro(); } });
+  audio.addEventListener('play', () => { started = true; removeGestureListeners(); intro.hidden = true; });
+  tryPlay().then(ok => { if (!ok && !started) intro.hidden = false; });
+  audio.addEventListener('canplay', () => { tryPlay(); }, { once: true });
+})();
+</script>
+<div class="wrap">
+<header class="top"><span class="mark">AZRA</span><span>a little page for us</span></header>
+<main>
+<section class="hero">
+<div class="window-light" aria-hidden="true"></div>
+<div class="hero-copy">
+<div class="eyebrow">just saying it simply</div>
+<h1>Azra.<span>I love you.</span></h1>
+<p>A little place for us — for the conversations, the laughs, the teasing, and all the small things that feel like ours.</p>
+<div class="hero-actions"><button class="btn" id="enterBtn" type="button">A little more ↓</button><span class="quiet">Our song is here, too.</span></div>
+</div>
+<figure class="hero-photo lightbox-photo" tabindex="0" role="button" aria-label="View Azra's photo">
+<img src="assets/images/photo-01.jpeg" alt="Azra" fetchpriority="high">
+<figcaption>Azra</figcaption>
+</figure>
+</section>
+<section class="section reveal" id="us">
+<div class="section-head"><div><div class="eyebrow">you, as you are</div><h2>You don't need to change.</h2></div><p class="section-intro">I love you as you are. You don't have to impress me, have everything figured out, or be anything other than yourself. You're enough, exactly as you are.</p></div>
+<div class="feature-row">
+<div class="manifesto"><blockquote>On the good days and the difficult ones, you can just be <em>you</em>. That's the person I want beside me.</blockquote><p class="small">No expectations. No pretending. Just you.</p></div>
+<figure class="memory-photo lightbox-photo" tabindex="0" role="button" aria-label="View Azra's photo"><img src="assets/images/photo-02.jpeg" alt="Azra in a white sweater" loading="lazy"><figcaption>A favourite of mine</figcaption></figure>
+</div>
+</section>
+<section class="section reveal">
+<div class="section-head"><div><div class="eyebrow">the two of us</div><h2>I like what we have.</h2></div><p class="section-intro">The affection, the jokes, the way we check on each other, and how easy it feels to be ourselves together.</p></div>
+<div class="feature-row feature-row-reverse">
+<figure class="memory-photo lightbox-photo" tabindex="0" role="button" aria-label="View Azra's photo"><img src="assets/images/photo-03.jpeg" alt="Azra smiling in a pink top" loading="lazy"><figcaption>One of those moments</figcaption></figure>
+<div class="manifesto"><blockquote>It's not about having a perfect story. I like the one we're making — <em>together.</em></blockquote><p class="small">And I'm still very much into you. Just so that's clear.</p></div>
+</div>
+</section>
+<section class="section reveal">
+<div class="section-head"><div><div class="eyebrow">the little things</div><h2>Things I notice.</h2></div><p class="section-intro">The little details, the extra messages, the way you care. I notice them, and I love them.</p></div>
+<div class="feature-row small-feature">
+<div class="manifesto"><blockquote>I love it when you overthink, when you show me affection, and when you send me those <em>long messages.</em></blockquote><p class="small">I read them. Every bit of them matters.</p></div>
+<figure class="memory-photo portrait-memory lightbox-photo" tabindex="0" role="button" aria-label="View Azra's photo"><img src="assets/images/photo-04.jpeg" alt="Azra in a playful cap filter" loading="lazy"><figcaption>Your playful side</figcaption></figure>
+</div>
+</section>
+<section class="section reveal">
+<div class="section-head"><div><div class="eyebrow">one to remember</div><h2>A moment from us.</h2></div><p class="section-intro">Some moments don't need much explaining. I just like having them to look back on.</p></div>
+<div class="two-col">
+<div class="tile"><video class="video-frame" controls playsinline preload="metadata" poster="assets/images/photo-01.jpeg"><source src="assets/video/little-moment.mp4" type="video/mp4">Your browser does not support video.</video></div>
+<div class="tile tile-pad"><h3>More of this, please.</h3><p>More talking about everything and nothing. More laughing at things only we understand. More days that feel like ours. That's what I want.</p></div>
+</div>
+</section>
+<section class="section reveal">
+<div class="eyebrow" style="text-align:center">from me to you</div><h2 style="text-align:center;margin-bottom:30px">Just a few words.</h2>
+<div class="note">
+<p>Azra, I love you exactly as you are. I love it when you overthink, when you show me affection, and when you send me those long messages. I read them, I notice the little details, and they make me feel loved. Never think you have to tone down the way you care.</p>
+<p>I love what we share — the affection, the trust, the random conversations, and the way we can make each other smile. It means a lot to me that this is something we both feel.</p>
+<p>I don't have a grand speech. I just want to keep making memories with you, keep laughing with you, and keep being good to each other. And yes, I still find you ridiculously attractive.</p>
+<div class="sign">I love you, Azra.</div>
+</div>
+</section>
+<section class="section reveal" id="soundtrack">
+<div class="section-head"><div><div class="eyebrow">our soundtrack</div><h2>Stay for the song.</h2></div><p class="section-intro">Dilerim Ki — the track playing in the background of this little page.</p></div>
+<div class="music"><div class="disc" id="disc" aria-hidden="true"></div><div class="music-meta"><strong>Dilerim Ki</strong><span>Dolu Kadehi Ters Tut</span></div><button id="musicBtn" type="button">Play music ♫</button></div>
+<p class="music-help" id="musicHelp" role="status">The song starts as soon as this page opens.</p>
+
+</section>
+</main>
+<footer class="footer">made for <b>Azra</b>, and for us.</footer><div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer"><button type="button" id="lightboxClose" aria-label="Close photo">×</button><img id="lightboxImage" alt=""></div>
+</div>
+<script>
+const song=document.getElementById('song');
+const musicBtn=document.getElementById('musicBtn');
+const disc=document.getElementById('disc');
+const musicHelp=document.getElementById('musicHelp');
+function syncMusic(){const playing=!song.paused;musicBtn.textContent=playing?'Pause music Ⅱ':'Play music ♫';disc.classList.toggle('playing',playing);musicHelp.textContent=playing?'Now playing: Dilerim Ki.':'Your browser blocked automatic sound. Press Play music to start the song.';}
+async function startMusic(){try{await song.play();syncMusic();return true}catch(error){syncMusic();return false}}
+musicBtn.addEventListener('click',async()=>{if(song.paused){await startMusic()}else{song.pause();syncMusic()}});
+song.addEventListener('play',syncMusic);song.addEventListener('pause',syncMusic);song.addEventListener('ended',syncMusic);
+document.getElementById('enterBtn').addEventListener('click',()=>document.getElementById('us').scrollIntoView({behavior:'smooth'}));
+const lightbox=document.getElementById('lightbox'),lightboxImage=document.getElementById('lightboxImage');
+function openPhoto(fig){const img=fig.querySelector('img');lightboxImage.src=img.src;lightboxImage.alt=img.alt;lightbox.classList.add('open');document.body.style.overflow='hidden';}
+function closePhoto(){lightbox.classList.remove('open');lightboxImage.removeAttribute('src');document.body.style.overflow='';}
+document.querySelectorAll('.lightbox-photo').forEach(fig=>{fig.addEventListener('click',()=>openPhoto(fig));fig.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openPhoto(fig);}});});
+document.getElementById('lightboxClose').addEventListener('click',closePhoto);lightbox.addEventListener('click',e=>{if(e.target===lightbox)closePhoto();});document.addEventListener('keydown',e=>{if(e.key==='Escape'&&lightbox.classList.contains('open'))closePhoto();});
+if('IntersectionObserver'in window){const io=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target)}}),{threshold:.1});document.querySelectorAll('.reveal').forEach(el=>io.observe(el));}else{document.querySelectorAll('.reveal').forEach(el=>el.classList.add('visible'));}
+</script>
+</body>
+</html>
